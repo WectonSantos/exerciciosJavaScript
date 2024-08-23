@@ -8,9 +8,42 @@ header {
     justify-content: center; /* Alinha horizontalmente o conteúdo */
     box-sizing: border-box; /* Inclui bordas e padding na largura e altura do elemento */
     margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove preenchimento padrão */
   }
 
   .cabecalho{
     background-color: rgb(166, 171, 180);
+    display: flex;
   }
   
+  .foto{
+    width: 200px;
+    height: 200px;
+  }
+  .info{
+    padding-left: 20px;
+  }
+  .icons{
+    width: 25px;
+    height: 25px;
+  }
+  .objetivos{
+    background-color: rgb(243, 252, 119);
+  }
+  ol {
+    list-style-type: none; /* Remove a numeração padrão */
+    padding-left: 20px; /* Ajusta o recuo da lista */
+  }
+  ol li {
+    position: relative; /* Necessário para posicionar os marcadores */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    padding-left: 25px; /* Espaçamento para os marcadores */
+  }
+  ol li::before {
+    content: '•'; /* Adiciona uma bolinha como marcador */
+    position: absolute;
+    left: 0; /* Posiciona a bolinha à esquerda */
+    color: black; /* Cor da bolinha */
+    font-size: 20px; /* Tamanho da bolinha */
+    line-height: 1; /* Alinha a bolinha com o texto */
+  }
