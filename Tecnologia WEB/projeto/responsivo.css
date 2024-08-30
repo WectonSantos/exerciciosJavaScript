@@ -1,0 +1,114 @@
+
+  
+  /* Container principal */
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .foto {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .redes {
+    margin-top: 1rem;
+  }
+  
+  .icons {
+    width: 24px;
+    height: 24px;
+    margin: 0 0.5rem;
+  }
+  
+  /* Estilização das seções */
+  .objetivos, .formacaoAc, .formacaoPr, .habilidades, .Projetos {
+    margin: 2rem 1rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul, ol {
+    margin: 1rem 0;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Botões */
+  button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
+  .botao-imgur {
+    background: url('icons/imgur.png') no-repeat center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    #container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .foto {
+      width: 100px;
+    }
+  
+    .redes .icons {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .objativos, .formacaoAc, .formacaoPr, .habilidades, .Projetos {
+      margin: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header a {
+      font-size: 1.2rem;
+    }
+  
+    button {
+      padding: 0.5rem;
+      font-size: 0.8rem;
+    }
+  }
+  

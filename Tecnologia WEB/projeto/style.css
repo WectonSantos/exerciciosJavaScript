@@ -8,9 +8,15 @@ header {
     justify-content: center; 
     box-sizing: border-box; 
     margin: 0; 
-    padding: 0; 
-  }
+    padding: 1rem;
+    text-align: center;
 
+  }
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
   .cabecalho{
     background-color: rgb(166, 171, 180);
     display: flex;
@@ -18,18 +24,27 @@ header {
   
   .foto{
     width: 200px;
-    height: 200px;
+    height: auto;
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 
   }
+  
+  #container {
+    display: flex;
+    align-items: center;
+  }
+
   .info{
     padding-left: 20px;
   }
+
   .icons{
     width: 25px;
     height: 25px;
     border-radius: 10px;
     border-color: black;
-    
   }
   ol {
     list-style-type: none; /* Remove a numeração padrão */
@@ -56,6 +71,9 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
   }
 
   .fundo{
@@ -92,5 +110,44 @@ header {
 
   body{
     background-color: rgb(73, 73, 73);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
   }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .objetivos, .formacaoAc, .formacaoPr, .habilidades, .Projetos {
+    margin: 2rem 1rem;
+  }
+  
+  ul, ol {
+    margin: 1rem 0;
+  }
+  ul li, ol li {
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  button:hover {
+    background: rgb(15, 207, 255);
+  }
+
+  ul{
+    padding-left: 40px;
+  }
+  aside{
+    display: inline-flex;
+  }
