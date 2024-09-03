@@ -57,7 +57,7 @@ class Carro{
 Carro1 = new Carro()
 Carro1.Fabricacao(15)
 Carro1.acelerar(150)
-//Carro1.frear(170)
+Carro1.frear(12)
 Carro1.exibe()
 
 
