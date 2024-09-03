@@ -1,6 +1,6 @@
-const entrada = require ('prompt-sync') ({sigint: true})
+const entraada = require ('prompt-sync') ({sigint: true})
 
-valor = entrada('Digite o velor: ')
+valor = entrada('Digite o valor: ')
 console.log(valor)
 
 // terminal 
