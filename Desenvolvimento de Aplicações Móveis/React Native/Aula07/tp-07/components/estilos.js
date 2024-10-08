@@ -24,6 +24,7 @@ export default estilo = StyleSheet.create({
   },
   visor1: {
     width: "75%",
+    color: 'white', 
     backgroundColor: 'black',
     fontSize: 100,
     borderColor: 'white',  // Cor da borda
@@ -32,6 +33,7 @@ export default estilo = StyleSheet.create({
   },
   visor2: {
     width: "25%",
+    color: 'white', 
     backgroundColor: 'black',
     fontSize: 100,
     borderColor: 'white',  // Cor da borda
